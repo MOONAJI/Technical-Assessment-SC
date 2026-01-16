@@ -319,17 +319,4 @@ Contributions are welcome! Silakan buat pull request atau open issue untuk sugge
 
 MIT License
 
-## 👥 Author
-
-[Your Name/Team Name]
-
-## 📞 Support
-
-Jika ada pertanyaan atau issues:
-- Open GitHub Issue
-- Email: [your-email@example.com]
-- Discord: [your-discord]
-
----
-
 **Note:** Contract ini untuk educational purposes. Pastikan melakukan audit security yang komprehensif sebelum deployment ke production.
