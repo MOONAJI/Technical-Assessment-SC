@@ -155,12 +155,12 @@ forge script script/Deploy.s.sol:DeployScript --rpc-url bsc_testnet --broadcast 
 ## 🔗 Contract Information
 
 ### Deployed Contract
-- **Network:** [Network Name - e.g., Sepolia Testnet]
-- **Contract Address:** `[DEPLOYED_CONTRACT_ADDRESS]`
-- **Block Explorer:** `[EXPLORER_LINK]`
-- **Admin Address:** `[ADMIN_ADDRESS]`
+- **Network:** Base Sepolia (sepolia.base)
+- **Contract Address:** 0x2907d7E6922C4e4D4C05E95d0Bb451d6C615ca06
+- **Block Explorer:** https://sepolia.basescan.org/address/0x2907d7e6922c4e4d4c05e95d0bb451d6c615ca06
+- **Admin Address:** 0xf1a38C55D87517d7BC0112eCc67069ef041A0aA4
 
-> **Note:** Update informasi di atas setelah deployment
+> **Note:** Contract deployed and verified on Base Sepolia. Transaction: 0x2afb8d161602a117329272bd95648412b650756fcaa6b7059e79565362adf995
 
 ### Verify Contract
 ```bash
