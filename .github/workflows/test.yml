@@ -19,8 +19,14 @@ jobs:
     steps:
       - uses: actions/checkout@v6
         with:
-          persist-credentials: false
+          # Allow the action to use the workflow token to fetch submodules
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # Fetch submodules recursively
           submodules: recursive
+          # Fetch full history to ensure submodule commits are reachable
+          fetch-depth: 0
+          # Keep credentials available for subsequent git commands
+          persist-credentials: true
 
       - name: Install Foundry
         uses: foundry-rs/foundry-toolchain@v1
